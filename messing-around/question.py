@@ -18,7 +18,7 @@ O, O, O, O, O, O, O, O,
 O, O, O, X, O, O, O, O
 ]
 sense.set_pixels(question)
-
+sleep(5)
 # Change LEDs’ color
 sense.clear() # Turn off all LEDs
 sleep(1)
