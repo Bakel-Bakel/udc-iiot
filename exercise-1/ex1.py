@@ -17,3 +17,4 @@ W, W, W, R, W, W, W, W,
 W, W, W, W, W, W, W, W,
 W, W, W, R, W, W, W, W
 ]
+sense.set_pixels(question)
