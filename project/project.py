@@ -16,7 +16,7 @@ from sense_hat import SenseHat
 from picamera2 import Picamera2
 
 # ----------------------------
-# Configuration (assignment-aligned defaults)
+# Configuration
 # ----------------------------
 @dataclass
 class Config:
@@ -38,7 +38,7 @@ class Config:
     # Scheduler
     run_interval: float = 5.0  # seconds
 
-    # Anti-spam cooldown (optional)
+    # Just normal for not spamming social media
     cooldown_seconds: float = 8.0
 
     # Telegram (read from environment)
